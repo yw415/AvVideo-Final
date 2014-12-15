@@ -60,7 +60,7 @@
     //改变导航栏背景
     UIImage * navBackGround;
     navBackGround=[[UtilitySDK Instance]getImageFromColor:[UIColor blackColor]
-                                                     rect:CGRectMake(0, 0, ScreenWidth, ScreenHeight)];
+                                                     rect:CGRectMake(0, 0, ScreenWidth, 44)];
     [self.navigationController.navigationBar changeBackGround:navBackGround];
     [self.navigationController.navigationBar changeNavFont:[UIColor whiteColor]];
     /*结束导航栏基本配置*/
